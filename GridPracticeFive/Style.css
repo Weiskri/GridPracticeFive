@@ -1,0 +1,36 @@
+﻿.container {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 200px 800px;
+    grid-template-rows: 50px 300px 100px 50px;
+    color: black;
+    grid-gap: 10px;
+    max-width: 1000px;
+    width: 90%;
+}
+section.grid-item.grid-item-1 {
+    grid-column: 1 / span 2;
+    background-color: crimson;
+}
+section.grid-item.grid-item-2 {
+    grid-row: 2 / span 2;
+    background-color: crimson;
+}
+section.grid-item.grid-item-3 {
+    grid-row: 2 / span 1;
+    background-color: crimson;
+}
+section.grid-item.grid-item-4 {
+    grid-row: 3 / span 1;
+    background-color: crimson;
+}
+section.grid-item.grid-item-5 {
+    grid-column: 1 / span 2;
+    background-color: crimson;
+}
+
+
+p {
+    text-align: justify;
+    padding-left: 20px;
+}
